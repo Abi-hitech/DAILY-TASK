@@ -1,0 +1,29 @@
+nav li{
+    float:left;
+    padding: 10px;
+    list-style: none;
+}
+.one{
+    background-color:royalblue;
+    border:30px 30px 30px 30px;
+    border-style:dotted;
+    background-position:center;
+    height:500px;
+    width:50%;
+    margin-top:100px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-bottom: 100px;
+    line-height: 50px;
+
+
+    outline: 5px;
+    outline-style: double;
+    outline-offset:15px;
+    outline-color: blue; 
+    
+}
+.img{
+    filter: blur(20px);
+}
+
