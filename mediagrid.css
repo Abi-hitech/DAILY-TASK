@@ -1,17 +1,25 @@
 .a1{
-    display: grid;
-    justify-content: space-evenly;
+    display:grid;
+    grid-template-columns: 200px 200px 200px 200px ;
+    grid-template-rows: 200px 200px 200px;
+    column-gap:2rem;
+    row-gap: 2rem;
+    grid-template-columns: repeat(auto);
+
 }
 .s{
-    height:500px;
-    width:100%;
+    overflow: scroll;
 }
-b1{
-    background-color: rgb(207, 30, 140);
+.b1{
+    background-color: fuchsia;
 }
-b2{
+.b2{
+    background-color: firebrick;
+}
+.b3{
     background-color: forestgreen;
 }
-b3{
-    background-color: rgb(178, 196, 16);
+.b1{
+    grid-column-start:1;
+    grid-column-end:3;
 }
