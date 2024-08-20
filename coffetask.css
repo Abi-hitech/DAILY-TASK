@@ -1,0 +1,24 @@
+body{
+   overflow: scroll;
+}
+
+.container{
+    background-color: chocolate;
+    border-radius: 12px;
+    height:950px;
+    width:15%;
+    margin-left:180px;
+}
+.a1{
+    font-style: oblique;
+    line-height:50px;
+    text-decoration-thickness:100%;
+    text-align: center;
+    font-size: x-large;
+    text-decoration-color: black;
+}
+
+.Bimg{
+    flex-direction: column;
+    color:white;
+}

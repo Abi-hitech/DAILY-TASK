@@ -1,0 +1,24 @@
+.a1{
+    color: chocolate;
+}
+.img2{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color:white;
+    font-size:x-large;
+
+}
+.img{
+    margin-left:400px;
+}
+.a3{
+    color: chocolate;
+}
+.img3{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color:white;
+    font-size: x-large;
+}
