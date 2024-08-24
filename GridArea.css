@@ -1,0 +1,43 @@
+.Parent{
+    display: grid;
+    grid-template-rows:15vh 70vh 15vh ;
+    grid-template-columns:35vh 40vh 40vh 40vh 35vh;
+    gap: 1rem;
+    background-color: fuchsia;
+}
+
+.header{
+    grid-area: h;
+}
+.menu{
+    grid-area: m;
+}
+.main{
+    grid-area: m1;
+}
+.right{
+    grid-area: r;
+}
+.footer{
+    grid-area:f;
+}
+.Parent{
+    grid-template-areas:
+   ' h h h h h'
+    'm m1 m1 m1 r'
+   ' f f f f f';
+}
+.Parent>div{
+    background-color: blue;
+    color: aquamarine;
+    text-align: center;
+    font-size: large;
+    border-radius:12px;
+    align-content: center;
+
+    
+}
+
+   }
+
+

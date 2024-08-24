@@ -1,0 +1,91 @@
+.Parent{
+    display: grid;
+    grid-template-rows:20vh 10vh 70vh 20vh;
+    grid-template-columns:23vh 30vh 30vh 30vh 23vh;
+    gap:1rem;
+    margin-left:150px;
+    margin-top:80px;
+
+
+}
+.Article{
+    display: grid;
+    grid-template-rows: 10vh 10vh 10vh;
+    grid-template-columns: 20vh 20vh 20vh;
+    gap:2rem;
+    margin-left:100px;
+    text-align: center;
+
+}
+
+.header{
+    grid-area: h;
+    background-color: slategrey;
+    color:black;
+}
+.header1{
+    grid-area:h1;
+    background-color: black;
+    color:white;
+    word-spacing:10px;
+    padding-left:500px;
+}
+.Aside1{
+    grid-area:a1;
+    background-color: firebrick;
+    color:black;
+}
+.Section{
+    grid-area:s;
+    background-color: yellow;
+    color:black;
+   
+}
+.Aside2{
+    grid-area:a2;
+    background-color: skyblue;
+    color:black;
+}
+.footer{
+    grid-area:f;
+    background-color: darkblue;
+    color:black;
+}
+.a1{
+    grid-area: a1;
+    background-color: green;
+}
+.a2{
+    grid-area: a2;
+    background-color: green;
+}
+.a3{
+    grid-area:a3;
+    background-color: green;
+}
+
+.Parent{
+    grid-template-areas:
+   ' h h h h h '
+   'h1 h1 h1 h1 h1'
+   'a1 s s s a2'
+   ' f f f f f';
+}
+.Article{
+    grid-template-areas:'a1 a1 a1'
+                        'a2 a2 a2'
+                        'a3 a3 a3';
+}
+
+.Parent>div{
+    text-align:center;
+    font-size: large;
+    align-content: center;
+    text-decoration-thickness: 10px;
+
+    
+}
+
+
+
+
